@@ -1,0 +1,6 @@
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\bin\Debug\StaticExercise.exe
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\bin\Debug\StaticExercise.pdb
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\obj\Debug\StaticExercise.csproj.AssemblyReference.cache
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\obj\Debug\StaticExercise.csproj.CoreCompileInputs.cache
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\obj\Debug\StaticExercise.exe
+C:\Users\corey\Desktop\csharp27\StaticExercise\StaticExercise\obj\Debug\StaticExercise.pdb
