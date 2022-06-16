@@ -72,7 +72,7 @@ namespace StaticExercise
 
         public static void PrintStats()
         {
-            Console.WriteLine($"total conversions:{numConversions}\ncorrect guesses:{numCorrectGuesses}\naverage error: {avgError}");
+            Console.WriteLine($"\ntotal conversions:{numConversions}\ncorrect guesses:{numCorrectGuesses}\naverage error: {avgError}");
         }
     }
 }

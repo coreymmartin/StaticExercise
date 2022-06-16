@@ -18,9 +18,6 @@ namespace StaticExercise
             return userDouble;
         }
 
-
-
-
         public static double PercentError(double actual, double expected)
         {
             return Math.Round(Math.Abs((actual - expected) / expected) * 100, 2);
@@ -40,7 +37,7 @@ namespace StaticExercise
                 if (TempConverter.bEnableKelvin)
                     Console.WriteLine("3. Celcius    -> Kelvin\n4. Fahrenheit -> Kelvin\n5. Kelvin     -> Celcius\n6. Kelvin     -> Fahrenheit");
                 gotInt = int.TryParse(Console.ReadLine(), out userSelect);
-                intGood = (gotInt && userSelect <= numOptions + 1) ? true : false;
+                intGood = (gotInt && 0 < userSelect && userSelect <= numOptions) ? true : false;
             } while (!intGood);
             temp = AskForDouble("please enter temperature value to convert...");
             switch (userSelect)
@@ -148,7 +145,7 @@ namespace StaticExercise
                     case 4:
                         userHasInterest = false;
                         Console.Clear();
-                        Console.WriteLine("\ngoodbye my friend, good luck with your future temperature conversions!\n");
+                        Console.WriteLine("\ngoodbye my friend, good luck with your future temperature conversions!");
                         if (TempConverter.numConversions > 0)
                             TempConverter.PrintStats();
                         Console.WriteLine("\npress enter to quit...\n");
